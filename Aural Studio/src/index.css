@@ -1,0 +1,39 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+    height: 360px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 200
+}
+.cart{
+    margin-top:50px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E3B55;
+
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 130px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
